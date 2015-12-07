@@ -9,7 +9,7 @@ int main(int argc, char const *argv[])
 {
     cout << "Operating at " << INTERVAL << "ms intervals...\n";
     IR_device tmp = IR_device(3, "send");
-    string msg = "This is supposed to be a very long message. Anyway, I am just bored. Guess how it may go in the reciving end? I don't know.~";
+    string msg = "The Soviet Union";// had its roots in 1917 when the Bolsheviks, headed by Vladimir Lenin";//, led the October Revolution which overthrew the provisional government that had replaced the Tsar. ";
     cout << msg << endl;
     cout << msg.size() << endl;
     tmp.send(msg);
