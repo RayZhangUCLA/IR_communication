@@ -7,9 +7,9 @@
 
 using namespace std;
 
-//compile command: g++ -std=c++11 -lmraa -o led_client test.cpp IR_device.cpp -I/usr/include/python2.7/ -lpython2.7
+//compile command: g++ -std=c++11 -lmraa -o led_client led_client.cpp IR_device.cpp -I/usr/include/python2.7/ -lpython2.7
 //argument: python_file_name python_function_name LED_index messege eg:./led_client BT_localization localization 1 ni_hao
-
+ 
 bool get_location_from_rssi(int argc, char const* argv[], string& location_info){
 	argc -= 2;
 	setenv("PYTHONPATH",".",1);
