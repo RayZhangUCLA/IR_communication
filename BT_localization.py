@@ -8,11 +8,12 @@ from math import sqrt
 from operator import itemgetter
 
 test_bed_length = 200 #in cm
-test_bed_width = 150 #in cm
+test_bed_width = 200 #in cm
 beacon_BT_addr = ['70:3E:AC:75:19:26', '34:C8:03:89:8C:67', '80:EA:96:7D:A3:69', '70:3E:AC:4E:B3:9F'] #bsj, ray, gigantic leg
 beacon_rssi_d0 = [-55.363, -57.8, -59.4, -56.6]
 beacon_loss_index = [3.348787454, 3.49622736, 2.654676987, 2.830799062]
-beacon_location = [(0,0),(0, test_bed_width),(test_bed_length,0), (test_bed_length, test_bed_width)]
+# beacon_location = [(0,100),(0,0),(120,-91.74), (test_bed_length, test_bed_width)]
+beacon_location = [(86,102),(86, -102),(-125,102), (-125, -102)]
 Epsilon = 5 #in cm
 base = 50 #in cm
 num_max = 3

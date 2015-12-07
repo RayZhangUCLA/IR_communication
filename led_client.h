@@ -8,7 +8,7 @@
 
 using namespace std;
 
-string hostname = "172.20.10.4", port = "1222";
+string hostname = "192.168.1.20", port = "1222";
 
 class LEDSys {
 public:
